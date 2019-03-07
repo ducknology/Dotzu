@@ -444,7 +444,7 @@
 					BB1B40601E428B8300DF4E57 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 44Q2J6374R;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					BB1B40691E428B8300DF4E57 = {
@@ -703,7 +703,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -725,7 +726,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = remi.robert.Dotzu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
